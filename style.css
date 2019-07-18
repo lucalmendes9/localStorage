@@ -1,0 +1,44 @@
+body {
+    background-color: #fbfbfb;
+    margin: 0;
+    padding: 0 5%;
+    font-family: 'Roboto', sans-serif;
+}
+.form {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    background-color: #219ee4;
+    margin: 0 auto;
+    border-radius: 10px;
+}
+.form > * {
+    margin: 20px 50px;
+    color: #FFF;
+}
+.form a {
+    color: #219ee4;
+    background-color: #FFF;
+    text-decoration: none;
+    padding: 5px 20px;
+    border-radius: 5px;
+    font-size: 18px;
+}
+.form input {
+    height: 30px;
+    min-width: 200px;
+    border: none;
+    border-radius: 8px;
+    padding: 0 15px;
+    font-size: 16px;
+    text-align: center;
+    color: #219ee4;
+}
+.storage {
+    text-align: center;
+}
+.storage li {
+    max-width: 150px;
+    margin: 0 auto;
+}
